@@ -1,0 +1,14 @@
+.wrapper {
+    width:500px;
+    overflow:hidden;
+   }
+   
+   .left {
+    width:250px;
+    float:left;
+   }
+   
+   .right {
+    width:250px;
+    float:right;
+   }

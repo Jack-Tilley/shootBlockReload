@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d173ece12d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <title>ShootBlockReload</title>
+</head>
+<body>   
+    <div class="container mt-4">
+        <h1 class="display4 text-center">Shoot
+            <span class="text-primary">Block
+                <span class="text-secondary">Reload</span>
+            </span>
+        </h1>
+        <div id="score" class="score mt-4 text-center">0 : 0</div>
+        <div id="narration" class="narration mt-4 text-center">New Game</div>
+        <div class="wrapper text-center">
+            <div class="left mt-4 text-center">
+                <div class="playerInfo" id="player1Info">
+
+                </div>
+
+                <div class="buttons text-center" id="p1Buttons">
+                    <input type="submit" value="shoot" id="shoot1" class="btn btn-primary"></input>
+                    <input type="submit" value="block" id="block1" class="btn btn-primary"></input>
+                    <input type="submit" value="reload" id="reload1" class="btn btn-primary"></input>
+                </div>
+            </div>
+
+            <div class="right mt-4 text-center">
+                <div class="playerInfo" id="player2Info">
+                    
+
+                </div>
+
+                <div class="buttons text-center" id="p2Buttons">
+                    <input type="submit" value="shoot" id="shoot2" class="btn btn-primary"></input>
+                    <input type="submit" value="block" id="block2" class="btn btn-primary"></input>
+                    <input type="submit" value="reload" id="reload2" class="btn btn-primary"></input>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="buttons mt-4 text-center">
+            <input type="submit" value="ready" id="readyBoth" class="btn btn-primary"></input>
+        </div>
+
+        
+        <div class="restart mt-4 text-center">
+            <input type="submit" value="reset" id="reset" class="btn btn-secondary"></input>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+
+</body>
+</html>
